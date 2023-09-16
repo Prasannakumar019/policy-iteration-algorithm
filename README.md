@@ -5,6 +5,7 @@ Write the experiment AIM.
 
 ## PROBLEM STATEMENT
 Explain the problem statement.
+```python3
 import warnings ; warnings.filterwarnings('ignore')
 
 import gym, gym_walk
@@ -166,6 +167,7 @@ print('Reaches goal {:.2f}%. Obtains an average undiscounted return of {:.4f}.'.
     mean_return(env, optimal_pi)))
 
 print_state_value_function(optimal_V, P, n_cols=7, prec=5)
+```
 ## POLICY ITERATION ALGORITHM
 Include the steps involved in policy iteration algorithm
 
